@@ -1,27 +1,160 @@
-# Mainul Hasan's Personal Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mainul Hasan | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header, section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    nav {
+      background-color: #222;
+      padding: 10px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1, h2 {
+      color: #1a1a1a;
+    }
+    .tribute img {
+      width: 180px;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+    .tribute-box {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .tribute-text {
+      flex: 1;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #222;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      .tribute-box {
+        flex-direction: column;
+        text-align: center;
+      }
+      .tribute img {
+        margin-bottom: 15px;
+        margin-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
 
-This is a simple static personal portfolio website made using only HTML and CSS.  
-It includes:
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#resume">Resume</a>
+    <a href="#tribute">Tribute</a>
+  </nav>
 
-- About Me section
-- Education background
-- Skills
-- Inspirational personalities
-- Contact information
+  <header id="home">
+    <h1>Mainul Hasan</h1>
+    <p>I’m a passionate student preparing for BUET and aiming to become a top-tier CSE engineer, with deep knowledge in Mechanical and EEE fields. I also love arm wrestling and dream of building a strong, fit physique.</p>
+  </header>
 
-## Live Website
+  <section id="resume">
+    <h2>Resume</h2>
+    <h3>Career Objective</h3>
+    <p>To get into BUET and become a skilled CSE engineer, while exploring knowledge in mechanical and electrical fields. I also want to stay strong, fit, and dedicated to personal growth.</p>
 
-👉 [Click here to visit the website](https://mainulhasan0112.github.io/mainul-hasan/)
+    <h3>Education</h3>
+    <ul>
+      <li>🎓 Cumilla Govt. City College — <abbr title="Higher Secondary School Certificate">HSC</abbr> Candidate, 2025</li>
+      <li>🏫 Cumilla Modern High School — <abbr title="Secondary School Certificate">SSC</abbr> 2023 (GPA 5.00)</li>
+    </ul>
 
-## Technologies Used
+    <h3>Skills</h3>
+    <ul>
+      <li>💻 HTML & CSS</li>
+      <li>🎧 Music & Singing</li>
+      <li>🖥️ MS Office (Word, Excel, PowerPoint)</li>
+      <li>🔌 Electronics</li>
+      <li>🌐 Fluent English Communication</li>
+    </ul>
 
-- HTML5
-- CSS3
+    <h3>Contact</h3>
+    <ul>
+      <li>Email: <a href="mailto:mainulhasan129@gmail.com">mainulhasan129@gmail.com</a></li>
+      <li>Phone: 01742-805491</li>
+      <li>GitHub: <a href="https://github.com/mainulhasan0112" target="_blank">mainulhasan0112</a></li>
+      <li>Facebook: <a href="https://facebook.com/mainulhasan0112" target="_blank">mainulhasan0112</a></li>
+    </ul>
+  </section>
 
-## Author
+  <section id="tribute" class="tribute">
+    <h2>Tribute</h2>
 
-**Mainul Hasan**  
-📧 Email: mainulhasan129@gmail.com  
-📞 Phone: 01742-805491  
-🌐 [Facebook](https://facebook.com/mainulhasan0112)
+    <div class="tribute-box">
+      <img src="https://www.reuters.com/resizer/v2/XTHGEOUGRFLKBK7CGYU7LQAFPQ.jpg?auth=edc622eff5eab6101e57314e20e01ac0471956965d0df1c7af07e70b10fd9957&width=960&quality=80" alt="Elon Musk">
+      <div class="tribute-text">
+        <h3>Elon Musk</h3>
+        <p>I admire Elon Musk for his extraordinary thinking, extreme risk-taking ability, and his mission to change the world through bold innovation. His ambition and courage inspire me to think bigger and never fear challenges.</p>
+      </div>
+    </div>
 
+    <div class="tribute-box">
+      <img src="https://thediplomat.com/wp-content/uploads/2024/03/sizes/medium_large/thediplomat_2024-03-22-043902.jpg" alt="Muhammad Yunus">
+      <div class="tribute-text">
+        <h3>Prof. Muhammad Yunus</h3>
+        <p>Professor Yunus is a national hero in my eyes. His tireless work for Bangladesh, especially as the Chip Advisor, shows true patriotism. I respect his mission to empower people through economics and social reform.</p>
+      </div>
+    </div>
+
+    <div class="tribute-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/George_H._W._Bush_with_Michael_Jackson_%28cropped%29.png" alt="Michael Jackson">
+      <div class="tribute-text">
+        <h3>Michael Jackson</h3>
+        <p>Michael Jackson wasn’t just the King of Pop — he was a humble genius whose music, voice, and personality touched millions. His creativity and kindness set a powerful example beyond fame.</p>
+      </div>
+    </div>
+
+    <div class="tribute-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cristiano_Ronaldo_WC2022_-_02.jpg" alt="Cristiano Ronaldo">
+      <div class="tribute-text">
+        <h3>Cristiano Ronaldo</h3>
+        <p>CR7's discipline, mental toughness, and relentless work ethic make him a true legend. His character and commitment both on and off the field inspire me to strive for greatness every day.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    &copy; 2025 Mainul Hasan. All rights reserved.
+  </footer>
+
+</body>
+</html>
